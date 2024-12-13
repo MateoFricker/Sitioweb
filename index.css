@@ -1,0 +1,91 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100%;
+}
+
+header {
+    background-color: #FF7F32;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; 
+    gap: 10px;
+    flex-grow: 1;
+}
+
+.column{
+    padding: 1vw;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 4vw;
+    width: 92vw;
+    display: grid;
+    grid-template-columns: 55vw 34vw;
+    column-gap: 1vw;
+    background-color: white;
+}
+.c1{
+    text-align: justify;
+    font-size: 2.5vh;
+    font-weight: 600;
+}
+.c2{
+    margin-left: 2vw;
+}
+.publicidad{
+    width: 31vw;
+}
+
+footer{
+    bottom: 0;
+    position: absolute;
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    width: 100%; 
+}
+.linea{
+    height: 0.25vh;
+    background-color: #FF7F32;
+    color: #FF7F32;
+    width: 60vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+.contactos,
+.terminos {
+    justify-content: center;
+    width: 100%; 
+    margin: 10px;
+}
+
+.contactos a,
+.terminos a{
+    color: #FF7F32; 
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.contactos a:hover,
+.terminos a:hover{
+    text-decoration: underline;
+}
+
